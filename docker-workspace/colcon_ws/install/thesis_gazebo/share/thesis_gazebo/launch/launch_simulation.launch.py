@@ -1,0 +1,1 @@
+/workspace/colcon_ws/src/thesis_ros2/thesis_gazebo/launch/launch_simulation.launch.py

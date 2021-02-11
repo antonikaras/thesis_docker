@@ -1,0 +1,13 @@
+alias src="source /opt/ros/noetic/setup.bash && source /workspace/catkin_ws/devel/setup.bash"
+alias src2="source /opt/ros/foxy/setup.bash && source install/setup.bash"
+
+alias cd-ros2="cd /workspace/colcon_ws"
+alias bt-ros2="cd-ros2 && colcon build --symlink-install && src2"
+
+alias cd-ros="cd /workspace/catkin_ws"
+alias bt-ros="cd-ros && catkin build && src"
+
+alias cd-bridge="cd /workspace/bridge_ws"
+alias bt-bridge="cd-ros2 && colcon build --packages-select ros1_bridge --cmake-force-configure && src2"
+
+alias killgazebo="pkill -9 gazebo & pkill -9 gzserver & pkill -9 gzclient & pkill -9 gazebo_gui"

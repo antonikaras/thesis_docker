@@ -1,0 +1,1 @@
+/workspace/colcon_ws/build/autonomous_exploration_msgs/ament_cmake_environment_hooks/local_setup.sh

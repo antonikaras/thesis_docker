@@ -1,0 +1,1 @@
+/workspace/colcon_ws/src/thesis_ros2/autonomous_exploration_msgs/msg/ExplorationTargets.msg

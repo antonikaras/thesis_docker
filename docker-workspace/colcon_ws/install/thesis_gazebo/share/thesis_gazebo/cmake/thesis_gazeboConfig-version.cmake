@@ -1,0 +1,1 @@
+/workspace/colcon_ws/build/thesis_gazebo/ament_cmake_core/thesis_gazeboConfig-version.cmake
