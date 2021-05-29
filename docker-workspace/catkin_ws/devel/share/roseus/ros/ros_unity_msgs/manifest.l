@@ -1,0 +1,1 @@
+/workspace/catkin_ws/devel/.private/ros_unity_msgs/share/roseus/ros/ros_unity_msgs/manifest.l

@@ -1,0 +1,1 @@
+/workspace/catkin_ws/devel/.private/rosbag_processor/share/rosbag_processor/cmake/rosbag_processorConfig.cmake

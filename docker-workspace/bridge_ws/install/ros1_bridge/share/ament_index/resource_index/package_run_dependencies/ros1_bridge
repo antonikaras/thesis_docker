@@ -1,1 +1,1 @@
-pkg-config;builtin_interfaces;python3-yaml;rclcpp;rcutils;std_msgs;ament_lint_auto;ament_lint_common;demo_nodes_cpp;diagnostic_msgs;launch;launch_testing;launch_testing_ament_cmake;launch_testing_ros;ros2run
+/workspace/bridge_ws/build/ros1_bridge/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ros1_bridge

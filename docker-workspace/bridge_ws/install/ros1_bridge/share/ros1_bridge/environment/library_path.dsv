@@ -1,1 +1,1 @@
-prepend-non-duplicate;LD_LIBRARY_PATH;lib
+/workspace/bridge_ws/build/ros1_bridge/ament_cmake_environment_hooks/library_path.dsv

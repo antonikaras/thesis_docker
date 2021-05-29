@@ -1,0 +1,1 @@
+/workspace/catkin_ws/devel/.private/ros_tcp_endpoint/share/roseus/ros/ros_tcp_endpoint/manifest.l

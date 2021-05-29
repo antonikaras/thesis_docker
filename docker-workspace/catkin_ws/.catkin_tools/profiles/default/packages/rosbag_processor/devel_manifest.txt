@@ -1,0 +1,5 @@
+thesis_ros/rosbag_processor
+/workspace/catkin_ws/devel/.private/rosbag_processor/cmake.lock /workspace/catkin_ws/devel/./cmake.lock
+/workspace/catkin_ws/devel/.private/rosbag_processor/lib/pkgconfig/rosbag_processor.pc /workspace/catkin_ws/devel/lib/pkgconfig/rosbag_processor.pc
+/workspace/catkin_ws/devel/.private/rosbag_processor/share/rosbag_processor/cmake/rosbag_processorConfig-version.cmake /workspace/catkin_ws/devel/share/rosbag_processor/cmake/rosbag_processorConfig-version.cmake
+/workspace/catkin_ws/devel/.private/rosbag_processor/share/rosbag_processor/cmake/rosbag_processorConfig.cmake /workspace/catkin_ws/devel/share/rosbag_processor/cmake/rosbag_processorConfig.cmake

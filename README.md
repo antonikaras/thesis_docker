@@ -6,7 +6,9 @@ Autonomous exploration and interactive mapping thesis docker
 * docker-workspace
     * bridge_ws : Contains the package establishing communication between ROS and ROS2
     * catkin_ws : Contains the package establishing communication between ROS and Unity
-    * colcon_ws : Contain the package that handles the autonomous exploration       
+        * https://github.com/antonikaras/thesis_ros.git
+    * colcon_ws : Contain the package that handles the autonomous exploration  
+        * https://github.com/antonikaras/thesis_ros2.git     
 
 ## How to install 
 
@@ -14,6 +16,9 @@ Autonomous exploration and interactive mapping thesis docker
 ```
 git clone https://github.com/antonikaras/thesis_docker.git
 git submodule update --init --recursive
+cd docker-workspace/colcon_ws/src/thesis_ros2
+git checkout main
+git pull
 ```
 * Build the docker image
 ```
@@ -23,33 +28,25 @@ docker system prune
 * Enter the docker environment
     * First terminal :``` ./run-docker-image-gpu.sh ```
     * Second, third ... terminal : ```docker exec -it thesis_ros2-tester bash```
+
 * Build the individual ros environments:
-    * Initialize the docker environment
+    * Terminal - 1 : Build the ROS workspace
     ``` 
     ./run-docker-image-gpu.sh
+    bws
     ```
-    * catkin_ws:
+    * Terminal - 2 : Build the ROS2 workspace
     ```
-    cd-ros
-    src
-    catkin build
-    src
+    docker exec -it thesis_ros2-tester bash
+    bws2
     ```
-    * colcon_ws
+    * Terminal - 3 : Build the ros1_bridge workspace
     ```
-    cd-ros2
-    src2
-    colcon build --symlink-install
-    src2
-    ```
-    * bridge_ws
-    ```
-    cd-bridge
-    src2
-    colcon build --packages-select ros1_bridge --cmake-force-configure
-    src2
+    docker exec -it thesis_ros2-tester bash
+    bbws
     ```
 ## How to use
 
-* Terminal 1:
+* Each git repository contains thorough instructions on how to use them
+* 
 

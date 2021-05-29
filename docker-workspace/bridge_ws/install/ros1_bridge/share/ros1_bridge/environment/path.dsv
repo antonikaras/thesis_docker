@@ -1,1 +1,1 @@
-prepend-non-duplicate-if-exists;PATH;bin
+/workspace/bridge_ws/build/ros1_bridge/ament_cmake_environment_hooks/path.dsv

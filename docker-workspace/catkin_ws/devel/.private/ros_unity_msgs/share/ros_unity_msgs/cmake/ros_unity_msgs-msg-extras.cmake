@@ -1,0 +1,2 @@
+set(ros_unity_msgs_MESSAGE_FILES "/workspace/catkin_ws/src/thesis_ros/ros_unity_msgs/msg/MapData.msg;/workspace/catkin_ws/src/thesis_ros/ros_unity_msgs/msg/PosData.msg;/workspace/catkin_ws/src/thesis_ros/ros_unity_msgs/msg/PointGroup.msg;/workspace/catkin_ws/src/thesis_ros/ros_unity_msgs/msg/PointGroups.msg;/workspace/catkin_ws/src/thesis_ros/ros_unity_msgs/msg/Nav2Waypoints.msg")
+set(ros_unity_msgs_SERVICE_FILES "")

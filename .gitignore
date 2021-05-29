@@ -136,3 +136,18 @@ build/*
 devel/*
 install/*
 log/*
+
+# Ignore the colcon workspace folders
+build 
+install 
+logs
+log
+core
+
+# vscode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
